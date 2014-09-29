@@ -16,11 +16,12 @@ published: true
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     {{ 'bootstrap.css' | stylesheet_tag }}
+    {{ 'styles.css' | stylesheet_tag }}
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body  class="{{ page.slug }}">
     <div class="container">
 
       <!-- Site Title -->
@@ -62,7 +63,11 @@ published: true
           <h2>{{ page.title }}</h2>
 	  {% block main %}
 	     <p>Coming Soon.</p>
+{% assign photo = "temppeliaukio.jpg" | theme_image_url %}
+{% include 'img_box' with photo, caption: "Temppeliaukio Church, Helsinki", size: "1000x300#" %}
 	  {% endblock %}
+{% include 'footer' %}
+
         </div>
       </div>
     </div>
@@ -70,5 +75,6 @@ published: true
     <!-- Javascripts -->
     <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     {{ 'bootstrap.min.js' | javascript_tag }}
+    {{ 'main.js' | javascript_tag }}
   </body>
 </html>

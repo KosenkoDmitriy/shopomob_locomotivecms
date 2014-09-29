@@ -16,6 +16,8 @@ published: true
 # content type that this page is templatizing
 # content_type: "<slug of one of the content types>"
 
+editable_elements:
+  'main/about_body': "<p>Thanks for visiting Wisdom for Wanders! This..."
 # editable_elements:
 #   'some_block/some_slug': "<text>"
 #   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
@@ -23,7 +25,19 @@ published: true
 {% extends parent %}
 
 {% block main %}
-
+{% editable_text "about_body", rows: 20 %}
   <p>about</p>
+{% endeditable_text %}
+
+{% block featured_photo %}
+  {% capture caption %}
+    {% editable_text "caption", format: "raw", rows: 3, hint: "Text displayed below the photo and in the ALT attribute." %}
+      Gyeongbokgung, Seoul
+    {% endeditable_text %}
+  {% endcapture %}
+  {% capture photo %}{% editable_file "photo" %}/samples/pages/gyeongbokgung-full.jpg{% endeditable_file %}{% endcapture %}
+
+{% include 'img_box' with caption, photo, size: "400x" %}
+{% endblock %}
 
 {% endblock %}
