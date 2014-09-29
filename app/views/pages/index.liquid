@@ -49,7 +49,8 @@ published: true
                 <li {% if page.slug == "index" %}class="active"{% endif %}>
                   <a href="/">Home</a>
                 </li>
-              </ul>
+              {% nav 'site', no_wrapper: true, active_class: "active" %}
+		</ul>
             </div>
           </nav>
         </div>
@@ -59,7 +60,9 @@ published: true
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-sm-12">
           <h2>{{ page.title }}</h2>
-          Coming Soon.
+	  {% block main %}
+	     <p>Coming Soon.</p>
+	  {% endblock %}
         </div>
       </div>
     </div>
