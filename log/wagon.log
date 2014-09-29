@@ -42,3 +42,8 @@ Use the force option in order to force your locale settings.
 [0m
 [0;31;49m      error => Command failed (/usr/local/bin/identify '/home/dmitry/prj/rails/acme_cms/tmp/uploads/1411998505-5386-9489/favicon.png') with exit status 127
 [0m
+[0;97;49mStarted GET "/" at 2014-09-29 17:02:14 +0200[0m
+[0;97;49mStarted GET "/" at 2014-09-29 17:07:56 +0200[0m
+[0;97;49mStarted GET "/" at 2014-09-29 17:07:59 +0200[0m
+[0;97;49mStarted GET "/" at 2014-09-29 17:08:00 +0200[0m
+[0;97;49mStarted GET "/" at 2014-09-29 17:08:01 +0200[0m
