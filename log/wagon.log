@@ -59,3 +59,21 @@ Use the force option in order to force your locale settings.
       error => stack level too deep
       error => stack level too deep
       error => stack level too deep
+[0;31;49m      target_klass_name => translation missing: ru.mongoid.errors.models.locomotive/page.attributes.target_klass_name.blank
+[0m
+[0;31;49m      target_klass_name => translation missing: ru.mongoid.errors.models.locomotive/page.attributes.target_klass_name.blank
+[0m
+[0;31;49m      target_klass_name => translation missing: ru.mongoid.errors.models.locomotive/page.attributes.target_klass_name.blank
+[0m
+[0;31;49m      target_klass_name => translation missing: ru.mongoid.errors.models.locomotive/page.attributes.target_klass_name.blank
+[0m
+Use the force option in order to force your locale settings.
+      error => undefined method `map' for nil:NilClass
+[0;31;49m      target_klass_name => can't be blank
+[0m
+Use the force option in order to force your locale settings.
+      locales => Предыдущая локаль не может быть удалена.
+      locales => Предыдущая локаль не может быть удалена.
+      locales => Предыдущая локаль не может быть удалена.
+Use the force option in order to force your locale settings.
+      locales => Предыдущая локаль не может быть удалена.
