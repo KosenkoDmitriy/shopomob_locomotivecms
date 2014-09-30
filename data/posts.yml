@@ -1,0 +1,20 @@
+- "Sample 1":
+    teaser: "Enim qui ullam minus dolor sed quod praesentium eos. Ab deleniti itaque blanditiis voluptatibus labore eum. Nemo eius voluptatem est delectus ea architecto at sit."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Ut repellendus accusantium nisi. Enim autem quas libero. Repellendus omnis vero nemo occaecati rerum perferendis. Minus dolores necessitatibus est."
+
+- "Sample 2":
+    teaser: "Maiores amet assumenda alias repudiandae. Commodi quis enim quia at. Hic ipsum corrupti esse odit aut qui."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Ut eveniet consequatur nihil. Dicta iure aliquam est natus quam sit consequatur rerum. Eaque dolore consequatur totam qui at rerum molestiae."
+
+- "Sample 3":
+    teaser: "Corrupti fugiat at qui enim officia accusamus qui. Nesciunt qui at excepturi voluptas rerum vel quidem officia. Consectetur et ducimus omnis. Est dicta cupiditate similique nostrum dolor quos dolore."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Ut dolore quisquam incidunt similique harum reprehenderit voluptatibus consectetur. Id et aliquam facere debitis suscipit vel. Autem voluptatem necessitatibus deleniti placeat voluptatem sunt vitae."
+
+- "Sample 4":
+    teaser: "Unde consequatur laborum et. Est qui odio consequuntur praesentium. Deleniti animi dolorem dolor ut magni sed quia. Facere dolorem nihil et."
+    featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
+    body: "Consectetur repudiandae sint et deleniti sapiente. Accusantium exercitationem iusto vel quam amet. Eligendi magni laudantium et nulla esse."
+
