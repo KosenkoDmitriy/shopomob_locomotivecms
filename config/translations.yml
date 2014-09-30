@@ -6,3 +6,16 @@
 # hello_world:
 #   en: Hello world !
 #   fr: Bonjour le monde !
+home_page:
+  en: Home
+  ru: Домой
+read_more:
+  en: Read More
+  ru: Подробности
+en:
+  ru: Русский
+  en: English
+
+ru:
+  en: Russia 
+  ru: Русский
