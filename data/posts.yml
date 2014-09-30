@@ -1,7 +1,19 @@
 - "Sample 1":
-    teaser: "Enim qui ullam minus dolor sed quod praesentium eos. Ab deleniti itaque blanditiis voluptatibus labore eum. Nemo eius voluptatem est delectus ea architecto at sit."
+    _slug:
+      en: s1
+      ru: s1
+    title:
+      en: sample 1
+      ru: пример 1
+    posted_at: '2013-08-04 15:00:00 -0500'
+    tags: [sample]
+    teaser:
+      en: "Enim qui ullam minus dolor sed quod praesentium eos. Ab deleniti itaque blanditiis voluptatibus labore eum. Nemo eius voluptatem est delectus ea architecto at sit."
+      ru: "пример 1 пример 1"
     featured_image: null # Path to a file in the public/samples folder or to a remote and external file.
-    body: "Ut repellendus accusantium nisi. Enim autem quas libero. Repellendus omnis vero nemo occaecati rerum perferendis. Minus dolores necessitatibus est."
+    body:
+      en: "Ut repellendus accusantium nisi. Enim autem quas libero. Repellendus omnis vero nemo occaecati rerum perferendis. Minus dolores necessitatibus est."
+      ru: "тело 1 примера первого"
 
 - "Sample 2":
     teaser: "Maiores amet assumenda alias repudiandae. Commodi quis enim quia at. Hic ipsum corrupti esse odit aut qui."

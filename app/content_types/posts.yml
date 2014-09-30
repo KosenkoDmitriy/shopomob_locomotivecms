@@ -32,28 +32,28 @@ fields:
     type: string
     required: true
     hint: A description of the field for the editors
-    localized: false
+    localized: true
 
 - posted_at: # Name of the field
     label: Posted at
     type: date_time
     required: true
     hint: A description of the field for the editors
-    localized: false
+    localized: true
 
 - tags: # Name of the field
     label: Tags
     type: tags
     required: false
     hint: A description of the field for the editors
-    localized: false
+    localized: true
 
 - teaser: # Name of the field
     label: Teaser
     type: text
     required: false
     hint: A description of the field for the editors
-    localized: false
+    localized: true
     # Enable or not the RTE [html|text]
     # text_formatting: html
 
@@ -69,6 +69,6 @@ fields:
     type: text
     required: false
     hint: Полный текст поста
-    localized: false
+    localized: true
     # Enable or not the RTE [html|text]
     text_formatting: html
