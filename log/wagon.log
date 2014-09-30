@@ -52,3 +52,10 @@ Use the force option in order to force your locale settings.
 [0;97;49mStarted GET "/about" at 2014-09-29 17:19:52 +0200[0m
 [0;97;49mStarted GET "/ru/about" at 2014-09-29 17:20:01 +0200[0m
 [0;97;49mStarted GET "/en/about" at 2014-09-29 17:20:27 +0200[0m
+      error => stack level too deep
+      error => stack level too deep
+      error => stack level too deep
+      error => stack level too deep
+      error => stack level too deep
+      error => stack level too deep
+      error => stack level too deep
